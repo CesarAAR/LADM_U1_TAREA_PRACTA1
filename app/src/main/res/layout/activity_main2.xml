@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoparaproyecto"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TIPS               TO BUILD A LANGUAGE LEARNING HABIT"
+        android:textSize="58sp"
+        android:textColor="#BE000000"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginTop="100dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="99dp"
+            android:layout_height="77dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="110dp"
+            android:text="  +free   New Habit Tracker!"
+            android:textColor="#BE000000"
+            android:textSize="20sp"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/unnamed"
+            android:layout_margin="40dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>
